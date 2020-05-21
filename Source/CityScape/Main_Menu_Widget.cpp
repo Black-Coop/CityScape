@@ -22,7 +22,7 @@ void UMain_Menu_Widget::NativeTick(const FGeometry& MyGeometry, float deltaTime)
 	Super::NativeTick(MyGeometry, deltaTime);
 }
 
-void UMain_Menu_Widget::StartGame(APlayerController *pc, FName levelName)
+void UMain_Menu_Widget::StartGame(APlayerController *pc, FName levelName, TSubclassOf<AHUD> hud)
 {
 	UGameplayStatics::OpenLevel(this, levelName);
 }

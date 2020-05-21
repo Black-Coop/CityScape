@@ -10,7 +10,7 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"UMGEditor",
-				"UMG"
+				"UMG",
 			]
 		}
 	]

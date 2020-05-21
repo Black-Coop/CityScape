@@ -13,7 +13,6 @@ UCLASS()
 class CITYSCAPE_API UMain_Menu_Widget : public UUserWidget
 {
 	GENERATED_BODY()
-	
 	public:
 		UPROPERTY(EditAnywhere, Category = LevelName)
 			FName level_name_to_start = "ThirdPersonExampleMap";
@@ -24,7 +23,7 @@ class CITYSCAPE_API UMain_Menu_Widget : public UUserWidget
 		virtual void NativeTick(const FGeometry& MyGeometry, float deltaTime) override;
 
 		UFUNCTION(BlueprintCallable)
-		void StartGame(APlayerController *pc, FName levelName);
+		void StartGame(APlayerController* pc, FName levelName, TSubclassOf<AHUD> hud);
 
 		UFUNCTION(BlueprintCallable)
 		void QuitGame(APlayerController *pc);
