@@ -1,0 +1,35 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Blueprint/UserWidget.h"
+#include "Main_Menu_Widget.generated.h"
+
+/**
+ * 
+ */
+UCLASS()
+class CITYSCAPE_API UMain_Menu_Widget : public UUserWidget
+{
+	GENERATED_BODY()
+	
+	public:
+		UPROPERTY(EditAnywhere, Category = LevelName)
+			FName level_name_to_start = "ThirdPersonExampleMap";
+
+		UMain_Menu_Widget(const FObjectInitializer& ObjectInitializer);
+		virtual void NativeConstruct() override;
+
+		virtual void NativeTick(const FGeometry& MyGeometry, float deltaTime) override;
+
+		UFUNCTION(BlueprintCallable)
+		void StartGame(APlayerController *pc, FName levelName);
+
+		UFUNCTION(BlueprintCallable)
+		void QuitGame(APlayerController *pc);
+
+
+
+
+};
