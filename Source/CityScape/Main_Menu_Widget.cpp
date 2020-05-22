@@ -29,5 +29,5 @@ void UMain_Menu_Widget::StartGame(APlayerController *pc, FName levelName, TSubcl
 
 void UMain_Menu_Widget::QuitGame(APlayerController *pc)
 {
-	FGenericPlatformMisc::RequestExit(false);
+	UKismetSystemLibrary::QuitGame(GetWorld(), pc, EQuitPreference::Quit, false);
 }
