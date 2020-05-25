@@ -9,8 +9,8 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"UMGEditor",
-				"UMG",
+	                
+	                "UMG",
 			]
 		}
 	]
