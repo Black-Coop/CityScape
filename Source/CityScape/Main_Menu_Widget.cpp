@@ -2,7 +2,7 @@
 
 
 #include "Main_Menu_Widget.h"
-#include "Kismet/GameplayStatics.h"
+
 
 UMain_Menu_Widget::UMain_Menu_Widget(const FObjectInitializer& ObjectInitializer) 
 	: Super(ObjectInitializer) {
@@ -12,9 +12,8 @@ UMain_Menu_Widget::UMain_Menu_Widget(const FObjectInitializer& ObjectInitializer
 void UMain_Menu_Widget::NativeConstruct()
 {
 	//Do some custom setup
-
-
 	Super::NativeConstruct();
+	
 }
 
 void UMain_Menu_Widget::NativeTick(const FGeometry& MyGeometry, float deltaTime)
