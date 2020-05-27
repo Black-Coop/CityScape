@@ -74,6 +74,7 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 #Content folders that are too big
+Content/ParagonDrongo/
 Content/ParagonWraith/
 Content/ModularBuildingSet/
 
