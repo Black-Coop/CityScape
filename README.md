@@ -9,7 +9,24 @@ While your search continues, tough enemies will be looking out for you, be caref
 Using the grappling hook, you can travel around very fast without being seen. But be careful about your launch ability though, it has a cooldown period.
 
 ## Screenshots
-INCOMING
+### Menu Screen
+![alt text](Screenshots_CityScape_Github_Repo/Menu_Screen.png)
+
+### Enemies
+![alt text](Screenshots_CityScape_Github_Repo/Enemy_Death.png)
+
+![alt text](Screenshots_CityScape_Github_Repo/Enemy_and_Checkpoint.png)
+
+![alt text](Screenshots_CityScape_Github_Repo/Shootout_On_Ground_Multiple_Enemies.png)
+
+### Package
+![alt text](Screenshots_CityScape_Github_Repo/Fake_Briefcase.png)
+
+### Extraction Zone
+![alt text](Screenshots_CityScape_Github_Repo/ExtractionZone.png)
+
+### Grappling Hook
+![alt text](Screenshots_CityScape_Github_Repo/Swinging_Tall_Building.png)
 
 ## Used Assets for Developing
 1.	Paragon: Drongo
